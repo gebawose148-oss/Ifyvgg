@@ -38,7 +38,7 @@ logging.getLogger("aiogram.event").setLevel(logging.WARNING)
 # ════════════════════════════════════════════════════════════════════
 # CONFIG
 # ════════════════════════════════════════════════════════════════════
-BOT_TOKEN = "8941859116:AAF1S02-DNy-6QORLFzwXLgCCAZlynsEDxA"
+BOT_TOKEN = "8941859116:AAFTLJCW518az5QgASfHGwYr0c7JhzK66dw"
 OWNER_ID = 8679787798
 DATA_FILE = "bomber_data.json"
 BACKUP_DIR = "backups"
