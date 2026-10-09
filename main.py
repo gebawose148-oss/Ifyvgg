@@ -31,18 +31,18 @@ log = logging.getLogger("SMSBomber")
 # ════════════════════════════════════════════════════════════
 # CONFIG
 # ════════════════════════════════════════════════════════════
-BOT_TOKEN = "8907592337:AAFNzd-SF-Ls7NrAMDQDkqmkIauyzmixURQ"
+BOT_TOKEN = "8907592337:AAG6un4i8amIlzVaIQrgNCMaLz9aPGfUYhY"
 OWNER_ID = 8679787798  # Change to your ID
 DATA_FILE = "bomber_data.json"
 VERSION = "v5.3"
-MAX_CONCURRENT = 1000
-MAX_COUNT = 1000  # Updated Limit
+MAX_CONCURRENT = 500
+MAX_COUNT = 500 # Updated Limit
 
 # Hardcoded Force Join Channels (Admin cannot change these via panel)
-FORCE_JOIN_CHANNELS = ["@errorarmy1", "@astrobaxkup"] 
+FORCE_JOIN_CHANNELS = ["@tchbsterarmy", "@elsewayshortcut"] 
 
 # Payment Details for Protection
-PROTECTION_PRICE = "10 Rs"
+PROTECTION_PRICE = "30 Rs"
 PAYMENT_UPI = "8707210511@fam"
 
 # ════════════════════════════════════════════════════════════
