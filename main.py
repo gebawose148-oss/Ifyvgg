@@ -31,7 +31,7 @@ log = logging.getLogger("SMSBomber")
 # ═══════════════════════════════════════════════════════════════
 # CONFIG
 # ═══════════════════════════════════════════════════════════════
-BOT_TOKEN = "8907592337:AAHIxSEWC5GIz6RYp0P3GXNnmWYI1m6aXu0"
+BOT_TOKEN = "8907592337:AAFyRgbCKIA1Q5HWLkw7XodtTciDDJrxx_U"
 OWNER_ID = 8679787798  # Change to your ID
 DATA_FILE = "bomber_data.json"
 VERSION = "v5.3"
