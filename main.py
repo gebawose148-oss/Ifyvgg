@@ -1163,6 +1163,14 @@ async def main():
     dp.include_router(R)
     me = await bot.get_me()
     log.info(f"✅ @{me.username} started ({VERSION})")
+
+    # ✅ FIX: Clear stale webhook so polling can receive updates
+    try:
+        await bot.delete_webhook(drop_pending_updates=True)
+        log.info("✅ Webhook cleared — polling mode active")
+    except Exception as e:
+        log.warning(f"⚠️ Could not delete webhook: {e}")
+
     await start_scheduler(bot)
     try:
         await bot.send_message(OWNER_ID, f"🚀 {sc('ᴋʀᴀᴋᴇɴ ʙᴏᴍʙᴇʀ')} {VERSION} {sc('ᴏɴʟɪɴᴇ')}\n@{me.username}\n\n📅 {sc('ꜱᴄʜᴇᴅᴜʟᴇʀ')}: ✅ {sc('ʀᴜɴɴɪɴɢ')}")
@@ -1171,6 +1179,3 @@ async def main():
         await dp.start_polling(bot)
     finally:
         await stop_scheduler()
-
-if __name__ == "__main__":
-    asyncio.run(main())
