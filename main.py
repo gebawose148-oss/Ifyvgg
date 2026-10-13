@@ -31,7 +31,7 @@ log = logging.getLogger("SMSBomber")
 # ════════════════════════════════════════════════════════════
 # CONFIG
 # ════════════════════════════════════════════════════════════
-BOT_TOKEN = "8907592337:AAG6un4i8amIlzVaIQrgNCMaLz9aPGfUYhY"
+BOT_TOKEN = "8907592337:AAHIxSEWC5GIz6RYp0P3GXNnmWYI1m6aXu0"
 OWNER_ID = 8679787798  # Change to your ID
 DATA_FILE = "bomber_data.json"
 VERSION = "v5.3"
@@ -39,7 +39,7 @@ MAX_CONCURRENT = 500
 MAX_COUNT = 500 # Updated Limit
 
 # Hardcoded Force Join Channels (Admin cannot change these via panel)
-FORCE_JOIN_CHANNELS = ["@tchbsterarmy", "@elsewayshortcut"] 
+FORCE_JOIN_CHANNELS = ["@tchbsterarmy", "@errorarmy1"] 
 
 # Payment Details for Protection
 PROTECTION_PRICE = "30 Rs"
