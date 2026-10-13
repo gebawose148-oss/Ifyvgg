@@ -394,7 +394,10 @@ def main_menu(uid, d):
     if is_admin(uid, d): rows.append([(sc("🛡 ᴀᴅᴍɪɴ ᴘᴀɴᴇʟ"), "admin:panel")])
     rows.append([(sc("💣 ꜱᴛᴀʀᴛ ʙᴏᴍʙɪɴɢ"), "bomb:start")])
     rows.append([(sc("🛡️ ᴘʀᴏᴛᴇᴄᴛ ɴᴜᴍʙᴇʀ"), "protect:start")])
-    rows.append([(sc("📊 ᴍʏ ꜱᴛᴀᴛꜱ"), "stats:show"), "status:show")])
+    rows.append([
+    (sc("📊 ᴍʏ ꜱᴛᴀᴛꜱ"), "stats:show"),
+    (sc("📡 ʟɪᴠᴇ ꜱᴛᴀᴛᴜꜱ"), "status:show")
+    ])
     rows.append([(sc("❓ ʜᴇʟᴘ"), "help:show")])
     return kb(rows)
 
